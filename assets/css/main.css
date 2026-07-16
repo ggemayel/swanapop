@@ -2975,6 +2975,15 @@ input, select, textarea {
 
 			}
 
+#one .inner {
+    max-width: 900px;
+}
+
+#one p {
+    letter-spacing: 0.03em;
+    line-height: 1.8em;
+}
+
 		.wrapper.style2 {
 			background-color: #2e3842;
 		}
