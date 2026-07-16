@@ -3017,6 +3017,22 @@ input, select, textarea {
     background-color: rgba(255, 255, 255, 0.08);
 }
 
+/* Contact section text box */
+#cta header {
+    background: rgba(0, 0, 0, 0.35);
+    padding: 2em;
+    border-radius: 4px;
+}
+
+/* Contact button color */
+#cta .button.primary {
+    background-color: #9b2f25;
+    box-shadow: none;
+}
+
+#cta .button.primary:hover {
+    background-color: #b23a2e;
+}
 		.wrapper.style2 {
 			background-color: #7a4a3a;
 		}
