@@ -2989,9 +2989,19 @@ input, select, textarea {
     padding-bottom: 4em;
 }
 
+#two .spotlight {
+    background-color: #56624f;
+}
+
 #two .spotlight .image img {
     height: 420px;
     object-fit: cover;
+    object-position: center 60%;
+}
+
+#two .spotlight .content p {
+    letter-spacing: 0.03em;
+    line-height: 1.65em;
 }
 
 		.wrapper.style2 {
