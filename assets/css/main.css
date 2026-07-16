@@ -3033,6 +3033,10 @@ input, select, textarea {
 #cta .button.primary:hover {
     background-color: #b23a2e;
 }
+
+#cta .actions {
+    text-align: center;
+}
 		.wrapper.style2 {
 			background-color: #7a4a3a;
 		}
