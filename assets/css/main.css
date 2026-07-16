@@ -2983,9 +2983,15 @@ input, select, textarea {
     letter-spacing: 0.03em;
     line-height: 1.8em;
 }
+
 #one {
     padding-top: 4em;
     padding-bottom: 4em;
+}
+
+#two .spotlight .image img {
+    height: 420px;
+    object-fit: cover;
 }
 
 		.wrapper.style2 {
