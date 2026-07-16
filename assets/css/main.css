@@ -3020,7 +3020,7 @@ input, select, textarea {
 /* Contact section text box */
 #cta header {
     background: rgba(0, 0, 0, 0.35);
-    padding: 2em;
+    padding: 1.25em 1.5em;
     border-radius: 4px;
 }
 
