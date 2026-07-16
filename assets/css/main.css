@@ -3018,10 +3018,9 @@ input, select, textarea {
 }
 
 /* Contact section text box */
-#cta header {
-    background: rgba(0, 0, 0, 0.35);
-    padding: 1.25em 1.5em;
-    border-radius: 4px;
+#cta h2,
+#cta p {
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.85);
 }
 
 /* Contact button color */
@@ -3034,8 +3033,14 @@ input, select, textarea {
     background-color: #b23a2e;
 }
 
+#cta .inner {
+    align-items: center;
+}
+
 #cta .actions {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 		.wrapper.style2 {
 			background-color: #7a4a3a;
