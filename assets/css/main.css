@@ -2986,7 +2986,7 @@ input, select, textarea {
 
 #one {
     padding-top: 4em;
-    padding-bottom: 4em;
+    padding-bottom: 2.5em;
 }
 
 #two .spotlight {
@@ -2997,6 +2997,10 @@ input, select, textarea {
     height: 420px;
     object-fit: cover;
     object-position: center 60%;
+}
+
+#two .spotlight .content {
+    max-width: 620px;
 }
 
 #two .spotlight .content p {
