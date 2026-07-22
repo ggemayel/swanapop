@@ -3058,14 +3058,18 @@ input, select, textarea {
 /* Member profiles */
 .member-profile {
     display: flex;
-    gap: 2em;
+    gap: 2.5em;
     align-items: flex-start;
     margin: 2.5em 0;
 }
 
+.member-photo {
+    flex: 0 0 210px;
+}
+
 .member-photo img {
-    width: 180px;
-    height: 180px;
+    width: 210px;
+    height: 210px;
     object-fit: cover;
     object-position: center;
     border-radius: 50%;
@@ -3073,6 +3077,17 @@ input, select, textarea {
 
 .member-bio {
     flex: 1;
+}
+
+@media screen and (max-width: 736px) {
+    .member-profile {
+        display: block;
+        text-align: center;
+    }
+
+    .member-photo {
+        margin-bottom: 1.5em;
+    }
 }
 
 
