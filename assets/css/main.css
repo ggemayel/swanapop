@@ -3017,6 +3017,7 @@ input, select, textarea {
     background-color: rgba(255, 255, 255, 0.08);
 }
 
+
 /* Contact section text box */
 #cta h2,
 #cta p {
@@ -3043,6 +3044,17 @@ input, select, textarea {
     align-items: center;
 	padding-top: 1.5em;
 }
+
+/* About page text width and readability */
+#main .inner {
+    max-width: 950px;
+}
+
+#main p {
+    letter-spacing: 0.02em;
+    line-height: 1.8em;
+}
+
 		.wrapper.style2 {
 			background-color: #7a4a3a;
 		}
