@@ -3118,7 +3118,7 @@ input, select, textarea {
 }
 
 .sinem-photo {
-    object-position: center top;
+    object-position: center 18% !important;
 }
 
 @media screen and (max-width: 736px) {
