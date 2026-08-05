@@ -3117,6 +3117,10 @@ input, select, textarea {
     border-bottom: none;
 }
 
+.sinem-photo {
+    object-position: center 25%;
+}
+
 @media screen and (max-width: 736px) {
     .member-profile {
         display: block;
