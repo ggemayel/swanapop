@@ -3075,6 +3075,25 @@ input, select, textarea {
     border-radius: 50%;
 }
 
+/* Member placeholder initials */
+.member-placeholder {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    background-color: #56624f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 210px;
+}
+
+.member-placeholder span {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    font-size: 1.5em;
+}
+
 .member-bio {
     flex: 1;
 }
