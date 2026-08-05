@@ -3096,10 +3096,11 @@ input, select, textarea {
 
 .member-bio {
     flex: 1;
+    max-width: none;
 }
 
 .member-bio p {
-    letter-spacing: normal;
+    letter-spacing: normal !important;
     line-height: 1.55em;
 }
 
