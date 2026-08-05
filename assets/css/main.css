@@ -3099,9 +3099,43 @@ input, select, textarea {
     max-width: none;
 }
 
+.member-bio h4 {
+    margin-bottom: 0.75em;
+}
+
 .member-bio p {
     letter-spacing: normal !important;
     line-height: 1.55em;
+    margin-bottom: 1em;
+}
+
+.member-bio p:first-of-type {
+    margin-bottom: 1.25em;
+}
+
+.member-bio h4 a {
+    border-bottom: none;
+}
+
+@media screen and (max-width: 736px) {
+    .member-profile {
+        display: block;
+        text-align: center;
+    }
+
+    .member-photo {
+        margin-bottom: 1.5em;
+    }
+
+    .member-placeholder {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .member-photo img {
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
