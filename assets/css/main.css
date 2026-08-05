@@ -3120,6 +3120,9 @@ input, select, textarea {
 .sinem-photo {
     object-position: center 18% !important;
 }
+.goleen-photo {
+    object-position: center 35% !important;
+}
 
 @media screen and (max-width: 736px) {
     .member-profile {
