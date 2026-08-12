@@ -3130,6 +3130,29 @@ input, select, textarea {
     object-position: center 35% !important;
 }
 
+
+.member-photo img {
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+}
+
+.sinem-photo {
+    object-position: center 18% !important;
+}
+
+.sara-photo {
+    object-position: center 65% !important;
+}
+
+.goleen-photo {
+    object-position: center 35% !important;
+}
+
+
+
 @media screen and (max-width: 736px) {
     .member-profile {
         display: block;
