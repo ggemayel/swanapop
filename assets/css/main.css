@@ -3130,6 +3130,13 @@ input, select, textarea {
     object-position: center 35% !important;
 }
 
+.paa-photo {
+    display: block;
+    max-width: 100%;
+    width: 700px;
+    height: auto;
+    margin: 1.5em auto;
+}
 
 @media screen and (max-width: 736px) {
     .member-profile {
