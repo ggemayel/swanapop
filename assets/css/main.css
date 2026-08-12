@@ -3132,10 +3132,9 @@ input, select, textarea {
 
 .paa-photo {
     display: block;
-    max-width: 100%;
-    width: 700px;
+    width: min(550px, 100%);
     height: auto;
-    margin: 1.5em auto;
+    margin: 1em auto 0;
 }
 
 @media screen and (max-width: 736px) {
