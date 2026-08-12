@@ -3146,6 +3146,29 @@ input, select, textarea {
     margin-top: 0.5em;
     text-align: left;
 }
+.paa-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1em;
+}
+
+.paa-gallery figure {
+    margin: 0;
+}
+
+.paa-gallery img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 736px) {
+    .paa-gallery {
+        grid-template-columns: 1fr;
+    }
+}
 
 @media screen and (max-width: 736px) {
     .member-profile {
