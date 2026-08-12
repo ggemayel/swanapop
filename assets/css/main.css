@@ -3120,6 +3120,12 @@ input, select, textarea {
 .sinem-photo {
     object-position: center 18% !important;
 }
+
+.sara-photo {
+	object-position: center 18% !important;
+
+}
+
 .goleen-photo {
     object-position: center 35% !important;
 }
