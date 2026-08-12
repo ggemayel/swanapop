@@ -3122,7 +3122,7 @@ input, select, textarea {
 }
 
 .sara-photo {
-	object-position: center 5% !important;
+	object-position: center top !important;
 
 }
 
