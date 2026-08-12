@@ -3130,11 +3130,21 @@ input, select, textarea {
     object-position: center 35% !important;
 }
 
+.paa-figure {
+    width: min(480px, 100%);
+    margin: 1em auto 0;
+}
+
 .paa-photo {
     display: block;
-    width: min(550px, 100%);
-    height: auto;
-    margin: 1em auto 0;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.paa-figure figcaption {
+    margin-top: 0.5em;
+    text-align: left;
 }
 
 @media screen and (max-width: 736px) {
