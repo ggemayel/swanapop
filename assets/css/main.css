@@ -3209,25 +3209,49 @@ input, select, textarea {
 /* Events page */
 .year-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+  margin-top: 2rem;
 }
 
 .year-card {
   display: block;
+  text-decoration: none;
+  color: inherit;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
 .year-card img {
   width: 100%;
-  height: 190px;
+  height: 140px;
   object-fit: cover;
   display: block;
+}
+
+.year-card-content {
+  padding: 1rem 1rem 1.1rem;
+}
+
+.year-card h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  letter-spacing: 0.05em;
+}
+
+.year-card p {
+  margin: 0;
+  line-height: 1.4;
+  font-size: 0.95rem;
+}
+
+.year-card-link {
+  display: inline-block;
+  margin-top: 0.7rem;
+  font-weight: 600;
 }
 
 
