@@ -4250,50 +4250,60 @@ input, select, textarea {
 	
 	/* Events page */
 .year-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 1.5rem;
-  margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 3em;
+    max-width: 950px;
+    margin: 0 auto;
 }
 
 .year-card {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  background: #fff;
-  border-radius: 12px;
-  overflow: hidden;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(0, 0, 0, 0.08);
+    display: block;
+    text-decoration: none;
+    border-bottom: none;
 }
 
-.year-card img {
-  width: 100%;
-  height: 140px;
-  object-fit: cover;
-  display: block;
+.year-image {
+    overflow: hidden;
+    border-radius: 6px;
+}
+
+.year-image img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    transition: transform 0.35s ease;
+}
+
+.year-card:hover .year-image img {
+    transform: scale(1.025);
 }
 
 .year-card-content {
-  padding: 1rem 1rem 1.1rem;
+    padding: 1.25em 0 0;
 }
 
-.year-card h4 {
-  margin: 0 0 0.5rem 0;
-  font-size: 1rem;
-  letter-spacing: 0.05em;
+.year-card-content h3 {
+    margin: 0 0 0.4em;
 }
 
-.year-card p {
-  margin: 0;
-  line-height: 1.4;
-  font-size: 0.95rem;
+.year-card-content p {
+    margin: 0 0 0.75em;
 }
 
-.year-card-link {
-  display: inline-block;
-  margin-top: 0.7rem;
-  font-weight: 600;
+.year-card-content span {
+    font-size: 0.85em;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 736px) {
+    .year-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5em;
+    }
 }
 ``^``
 	list-style: none;
