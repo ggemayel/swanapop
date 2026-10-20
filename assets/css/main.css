@@ -4249,6 +4249,7 @@ input, select, textarea {
 	
 	
 	/* Events page */
+
 .year-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -4299,9 +4300,13 @@ input, select, textarea {
     text-transform: uppercase;
 }
 
+.dinner-card-photo {
+    object-position: center 40%;
+}
+
 @media screen and (max-width: 736px) {
     .year-grid {
         grid-template-columns: 1fr;
         gap: 2.5em;
     }
-
+}
