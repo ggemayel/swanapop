@@ -3154,7 +3154,7 @@ input, select, textarea {
     margin: 0 auto;
 }
 
-.paa-gallery-four {
+.paa-gallery.paa-gallery-four {
     grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
